@@ -2,6 +2,8 @@
   profiles: 
     active:
     - dev
+
+#不同环境的配置
 ---
 server:
   port: 8201
@@ -24,3 +26,4 @@ eureka:
   client: 
     service-url:
       defaultZone: http://eureka-test.com:7001/eureka/
+#请保存为UTF-8格式
