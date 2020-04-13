@@ -3,7 +3,7 @@
     active:
     - dev
 
-# 不同环境的配置
+#不同环境的配置
 ---
 spring:
   profiles: dev    #开发环境
